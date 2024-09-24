@@ -2,21 +2,13 @@ import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Hero from '../components/Hero'
 import Points from '../components/Points'
+import Publi from '../components/Publi'
 
 
 
 const Publication = () => {
 
-  const topic = "International Journals";
-  const points = [
-    "Sharma, A., Choudhary, R., & Kumar, A. (2024). Laboratory Investigation of Draindown Behavior of Open-Graded Friction-Course Mixtures Containing Banana and Sugarcane Bagasse Natural Fibers. Transportation Research Record, 2678(1), 366-380. https://doi.org/10.1177/03611981231170875   [SCIE]",
-    "Sharma, A., Choudhary, R., & Kumar, A. (2023). Stabilization of open-graded asphalt friction course mixes with plant-based natural fibers. Materials Today: Proceedings, https://doi.org/10.1016/j.matpr.2023.03.202  [SCOPUS]",
-    "Sharma, A., Choudhary R., Kumar, A., Dash S.B. (2024). Mix design-based laboratory investigation of open-graded friction course mixes incorporating agro-waste derived natural fibers. Journal of Testing and Evaluation [SCIE], In Press",
-    "Sharma, A., Choudhary R., Kumar, A., Dash S.B. (2024). A Study on Optimization of Agro-waste Derived Fiber Parameters for Application in Open-Graded Asphalt Friction Course Mixtures. Journal of Testing and Evaluation [SCIE] In Press",
-    "Dash S.B., Choudhary R., Kumar A., Sharma, A. (2024). Characterization of Asphalt-Filler Mastics with Industrial By-Products as Fillers Under the Coupled Effect of Aging and Moisture. Transportation Research Record. https://doi.org/10.1177/03611981241240763  [SCIE]",
-  
-    "Kumar, A., Verma, S., Choudhary, R., Bharat, T. V., Sharma, A., and Dash, B. (2024). Application of Bottom Ash with Hydrated Lime in Pavement Subgrade Construction. Current Engineering Letters and Reviews, Benthem Science Publisher. https://doi.org/10.2174/012666948x269902231204073418"
-  ];
+
 
   const topic2 = "International Conferences";
   const points2 = [
@@ -52,7 +44,40 @@ const Publication = () => {
     <>
   <Navbar/>
   <Hero tittle="Publication"/>
-  <Points topic={topic} points={points}  />
+
+  <div className="topic-points">
+  <div className="flex justify-center p-2 bg-slate-400">
+  <h2>International Journals</h2>
+
+            
+        </div>
+        <ul className="disc-bullets text-2xl font-sans">
+        
+            <li>
+            Sharma, A., Choudhary, R., & Kumar, A. (2024). Laboratory Investigation of Draindown Behavior of Open-Graded Friction-Course Mixtures Containing Banana and Sugarcane Bagasse Natural Fibers. Transportation Research Record, 2678(1), 366-380. <a href="https://doi.org/10.1177/03611981231170875">https://doi.org/10.1177/03611981231170875</a>   [SCIE]
+            </li>
+        <li>
+        Sharma, A., Choudhary, R., & Kumar, A. (2023). Stabilization of open-graded asphalt friction course mixes with plant-based natural fibers. Materials Today: Proceedings, <a href="https://doi.org/10.1016/j.matpr.2023.03.202">https://doi.org/10.1016/j.matpr.2023.03.202</a>  [SCOPUS]
+
+        </li>
+        <li>
+        Sharma, A., Choudhary R., Kumar, A., Dash S.B. (2024). Mix design-based laboratory investigation of open-graded friction course mixes incorporating agro-waste derived natural fibers. Journal of Testing and Evaluation [SCIE], In Press
+        </li>
+        <li>
+        Sharma, A., Choudhary R., Kumar, A., Dash S.B. (2024). A Study on Optimization of Agro-waste Derived Fiber Parameters for Application in Open-Graded Asphalt Friction Course Mixtures. Journal of Testing and Evaluation [SCIE] In Press
+        </li>
+        <li>
+        Dash S.B., Choudhary R., Kumar A., Sharma, A. (2024). Characterization of Asphalt-Filler Mastics with Industrial By-Products as Fillers Under the Coupled Effect of Aging and Moisture. Transportation Research Record. <a href="https://doi.org/10.1177/03611981241240763 ">https://doi.org/10.1177/03611981241240763 </a> [SCIE]
+        </li>
+        <li>
+        Kumar, A., Verma, S., Choudhary, R., Bharat, T. V., Sharma, A., and Dash, B. (2024). Application of Bottom Ash with Hydrated Lime in Pavement Subgrade Construction. Current Engineering Letters and Reviews, Benthem Science Publisher. <a href="https://doi.org/10.2174/012666948x269902231204073418">https://doi.org/10.2174/012666948x269902231204073418</a>
+        </li>
+            
+         
+        </ul>
+  </div>
+
+
   <Points topic={topic2} points={points2} />
   <Points topic={topic3} points={points3} />
   <Points topic={topic4} points={points4} />

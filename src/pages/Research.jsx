@@ -7,22 +7,21 @@ import Points from '../components/Points'
 
 
 const Research = () => {
-  const topic = "Achievments";
+  const topic = "Invited Lecture";
   const points = [
-    "Best Paper Award for the paper: Sharma, A., Choudhary, R., and Kumar, A. (2022).Stabilization of open-graded asphalt friction course mixes with plant-based natural fibers In the Second International Conference on Construction Materials and Structures (ICCMS-2022), NIT Calicut, Kerala, India.",
-    "Doctoral fellowship from the Ministry of Education, Government of India (2021-Present).",
-    "Masters fellowship from the Ministry of Human Resource Development, Government of India (2019-2021).",
-    "Awarded merit certificate from Himachal Pradesh Board of School Education Dharamshala for securing 39th position in the Matriculation examination",
-    "Received a reward of Rs 75000/- as a one-time incentive from Govt. of Himachal Pradesh under the scheme titled “Mukhyamantri Protsahan Yojana Himachal Pradesh”."
+    "Invited lecture on 'Distresses in Flexible Pavements: Cause and Identification' in the training programme on 'Design, Construction, and Maintenance of Flexible Pavement' on 14th & 15th November 2022, at Rural Connectivity Training & Research Centre, Assam.",
+    "Invited lecture on 'Distresses in Rigid Pavements: Cause and Identification' in the training programme on 'Design, Construction, and Maintenance of Rigid Pavement' on 22nd & 23rd December 2022, at Rural Connectivity Training & Research Centre, Assam.",
+    "Invited lecture on 'Open-Graded Friction Courses for Enhanced Safety in High Rainfall Regions of India' in the 'Road Safety Auditing' training program on 30th May 2023 at Rural Connectivity Training & Research Centre, Assam."
+];
   
-  ];
+ 
 
 
 
   return (
     <>
     <Navbar/>
-    <Hero tittle="Achievements"/>
+    <Hero tittle="Invited Lecture"/>
     <Points topic={topic} points={points}  />
 
     

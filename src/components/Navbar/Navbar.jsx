@@ -1,14 +1,13 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-router-dom";
-import logo5 from '../../assets/logo5.png'
+// import logo5 from '../../assets/logo5.png'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Publications', href: '/publication', current: false },
 
-  { name: 'Achievements', href: '/achievements', current: false },
-  { name: 'Contact', href: '/contact', current: false },
+  { name: 'invited-lectures', href: '/invited-lectures', current: false }
 ]
 
 function classNames(...classes) {
@@ -29,10 +28,10 @@ export default function Navbar() {
               <XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-data-[open]:block" />
             </DisclosureButton>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
+          <div className="flex flex-1 items-center justify-center sm:items-stretch">
             
-            <div className="hidden sm:ml-6 sm:block  mr-80">
-              <div className="flex space-x-4 ">
+            <div className="hidden sm:ml-6 sm:block ">
+              <div className="flex space-x-20 ">
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
@@ -47,9 +46,9 @@ export default function Navbar() {
               </div>
               
             </div>
-            <div>
+            {/* <div>
               <img src={logo5} alt="" className='h-10 w-10 ' />
-            </div>
+            </div> */}
           </div>
           
         </div>

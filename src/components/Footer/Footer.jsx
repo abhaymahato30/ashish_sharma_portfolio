@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import logo5 from '../../assets/logo5.png'
+
 
 
 
@@ -17,9 +17,7 @@ const Footer = () => {
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
-        <div className="footer-logo">
-          <img src={logo5} alt="" className='h-10 w-10' />
-        </div>
+       
       
       </div>
     </footer>
