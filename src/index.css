@@ -1,0 +1,329 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Navbar Css */
+
+.nav_bg{
+    background-color: rgb(163, 163, 163);
+}
+
+
+/* Hero Section  */
+.background-container {
+    width: 100%;
+    height: 30vh;
+    font-size: 2rem;
+    background-image: url('https://i0.wp.com/lutzlab.chimie.unistra.fr/wp-content/uploads/2024/03/Fara-titlu-scaled.jpg?fit=2323%2C2560&ssl=1'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Change this based on your background */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional for better text visibility */
+  }
+  
+  .title {
+    font-size: 2rem; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+  }
+  
+
+
+
+
+  /* Info section */
+ .main-container {
+    display: flex;
+    border: 2px solid #ccc; /* Border around the container */
+    border-radius: 8px; /* Optional: rounded corners */
+    /* overflow: hidden;  */
+    /* Prevents overflow from child elements */
+    /* flex-wrap: wrap; Allows wrapping on smaller screens */
+  }
+  
+  .content {
+    flex-grow: 1; /* Takes the remaining space */
+    padding: 20px; /* Padding inside the main content */
+  }
+  
+  .aside {
+    
+    width: 500px; /* Fixed width for the aside */
+    padding: 20px; /* Padding inside the aside */
+    background-color: #f4f4f4; /* Background color for the aside */
+    border-left: 2px solid #ccc; /* Border to separate from main content */
+  }
+  
+  h1, h2 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main-container {
+      flex-direction: column; /* Stack content and aside vertically */
+    }
+    .aside {
+      width: 100%; /* Full width for the aside */
+      border-left: none; /* Remove left border */
+      border-top: 2px solid #ccc; /* Add top border */
+    }
+  }
+
+  .image-container {
+    /* border: 2px solid #ccc; Border around the container */
+    border-radius: 8px; /* Optional: rounded corners */
+    overflow: hidden; /* Prevents overflow from child elements */
+    max-width: 100%; /* Responsive max width */
+    height: auto; /* Auto height */
+    display: flex;
+  }
+  
+  .image {
+    width: 30%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes bottom space */
+    border-radius: 60%;
+  }
+  
+  /* aside container */
+  .logo-container {
+    display: flex;
+ /* Arrange logos in a column */
+    align-items: center; /* Center logos horizontally */
+    gap: 20px; /* Space between logos */
+    padding: 20px; /* Padding around the container */
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Add a hover effect */
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+  }
+.navbar_links{
+  transition: transform 0.3s; /* Add a hover effect */
+  font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+.navbar_links:hover {
+  transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+  
+  /* table */
+  .container {
+    padding: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: none;
+    padding: 4px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+
+
+
+
+  /* footer */
+  .footer {
+    background-color: #faf9f9;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-logo {
+    text-align: center;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  .contact-container{
+    display: flex;
+
+  }
+
+ 
+
+
+.address-container ul li img{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+  /* points */
+  .disc-bullets {
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 20px; /* Add some padding to the left */
+  
+    font-family: serif;
+  }
+  
+  .disc-bullets li {
+    margin: 10px 0; /* Add some vertical spacing */
+  }
+  .topic-points{
+    margin: 0% 6%;
+
+  }
+  .topic-points ul li a{
+   color: blue;
+
+  }
+  .topic-points h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+  }
+ 
+  .heading{
+    padding: 2rem 10rem; 
+
+  }
+  .responsive-heading {
+    font-size: 3em; /* Base font size */
+    text-align: center;
+    color: #2c3e50; /* Dark, professional color */
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #7f8c8d; /* Subtle underline */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .responsive-heading {
+        font-size: 2em; /* Smaller font size for mobile */
+    }
+}
+
+  @media (min-width: 310px) and (max-width: 600px) {
+    /* styles for screens between 480px and 768px */
+    .container-intrest{
+      flex-direction: column;
+    }
+    .heading{
+      padding: 0px; 
+
+    }
+    .image-container{
+      flex-direction: column;
+    
+      
+    }
+    .image-container {
+      /* border: 2px solid #ccc; Border around the container */
+     
+      height: 60%; /* Auto height */
+      display: flex;
+      justify-content: center;
+    }
+    
+    .image {
+      width: 100%; /* Makes the image responsive */
+      height: auto; /* Maintains aspect ratio */
+      display: block; /* Removes bottom space */
+      border-radius: 60%;
+    }
+  }
+  .header-container {
+    display: flex;
+    justify-content: center; /* Centering the heading */
+    align-items: center;
+    width: 100%; /* Full width for responsiveness */
+}
+
+.formal-heading {
+    font-size: 3em; /* Base font size */
+    color: #ffffff; /* Dark, professional color */
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff; /* Subtle underline */
+    text-shadow: 1px 1px 2px rgba(255, 252, 252, 0.2); /* Soft shadow for depth */
+}
+.container-intrest {
+  display: flex;
+  padding: 2%;
+  align-items: stretch; /* Make sure items stretch to the full height */
+  /* border: 1px solid #ccc; Outer border for the container */
+  border-radius: 5px; /* Rounded corners */
+  background: white; /* Background color */
+}
+
+.list-container {
+  flex: 1; /* Make lists take equal space */
+  padding: 20px;
+}
+
+.divider {
+  width: 2px; /* Thickness of the divider */
+  background-color: #ccc; /* Divider color */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .formal-heading {
+        font-size: 1.4em; /* Adjusted font size for mobile */
+    }
+}
+ 
+
+/* code for skills */
+.educate_container{
+  @media (min-width:318px) and (max-width:400px) {
+  width: min-content;    
+  }
+}
