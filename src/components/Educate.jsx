@@ -11,8 +11,8 @@ const Educate = () => {
       <h1 className="text-5xl font-bold text-white mb-8">EDUCATION</h1>
 
                 </div>
-        <div className="py-3 sm:max-w-xl sm:mx-12 w-full px-2 sm:px-0">
-          <div className="relative text-gray-700 antialiased text-sm font-semibold w-max educate_container">
+        <div className="py-3 sm:max-w-xl sm:mx-12 w-full px-2 sm:px-0 ml-12 sm:ml-0">
+          <div className="relative text-gray-700 antialiased text-sm font-semibold w-max educate_container sm:ml-28 2xl:ml-64">
 
             <div className="hidden sm:block w-1 bg-slate-700 absolute h-full left-1/2 transform -translate-x-1/2"></div>
 

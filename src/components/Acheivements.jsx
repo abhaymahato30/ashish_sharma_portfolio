@@ -27,7 +27,7 @@ const Acheivements = () => {
               </div>
               <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
                 <div className="container mx-auto w-full h-full">
-                  <div className="relative wrap overflow-hidden p-10 h-full">
+                  <div className="relative wrap overflow-hidden sm:p-10 h-full">
                     <div
                       className="border-2-2 border-yellow-555 absolute h-full border"
                       // style="right: 50%; border: 2px solid #FFC100; border-radius: 1%;"
@@ -38,7 +38,7 @@ const Acheivements = () => {
                     ></div>
                     <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                       <div className="order-1 w-5/12"></div>
-                      <div className="order-1 w-5/12 px-1 py-4 text-right">
+                      <div className="order-1 sm:w-5/12 px-1 py-4 sm:text-right">
                         <p className="mb-3 text-base text-yellow-300">
                           1-6 May, 2021
                         </p>
@@ -52,7 +52,7 @@ const Acheivements = () => {
                     </div>
                     <div className="mb-8 flex justify-between items-center w-full right-timeline">
                       <div className="order-1 w-5/12"></div>
-                      <div className="order-1  w-5/12 px-1 py-4 text-left">
+                      <div className="order-1  sm:w-5/12 px-1 py-4 text-left">
                         <p className="mb-3 text-base text-yellow-300">
                           6-9 May, 2021
                         </p>
@@ -66,7 +66,7 @@ const Acheivements = () => {
                     </div>
                     <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                       <div className="order-1 w-5/12"></div>
-                      <div className="order-1 w-5/12 px-1 py-4 text-right">
+                      <div className="order-1 sm:w-5/12 px-1 py-4 sm:text-right">
                         <p className="mb-3 text-base text-yellow-300">
                           {" "}
                           10 May, 2021
@@ -83,7 +83,7 @@ const Acheivements = () => {
                     <div className="mb-8 flex justify-between items-center w-full right-timeline">
                       <div className="order-1 w-5/12"></div>
   
-                      <div className="order-1  w-5/12 px-1 py-4">
+                      <div className="order-1  sm:w-5/12 px-1 py-4">
                         <p className="mb-3 text-base text-yellow-300">12 May, 2021</p>
                         <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
                         39th position in the Matriculation examination
@@ -95,7 +95,7 @@ const Acheivements = () => {
                     </div>
                     <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                       <div className="order-1 w-5/12"></div>
-                      <div className="order-1 w-5/12 px-1 py-4 text-right">
+                      <div className="order-1 sm:w-5/12 px-1 py-4 sm:text-right">
                         <p className="mb-3 text-base text-yellow-300">
                           {" "}
                           10 May, 2021

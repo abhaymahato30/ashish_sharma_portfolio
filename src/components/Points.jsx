@@ -10,7 +10,7 @@ const Points = ({ topic, points }) => {
 
             
         </div>
-        <ul className="disc-bullets text-2xl font-sans text-white">
+        <ul className="disc-bullets text-xl md:text-2xl font-sans text-white">
           {points.map((point, index) => (
             <li key={index}>{point}</li>
           ))}
