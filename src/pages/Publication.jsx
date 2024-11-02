@@ -54,7 +54,7 @@ const Publication = () => {
 
             
         </div>
-        <ul className="disc-bullets text-2xl font-sans">
+        <ul className="disc-bullets text-xl md:text-2xl font-sans">
         
             <li>
             Sharma, A., Choudhary, R., & Kumar, A. (2024). Laboratory Investigation of Draindown Behavior of Open-Graded Friction-Course Mixtures Containing Banana and Sugarcane Bagasse Natural Fibers. Transportation Research Record, 2678(1), 366-380. <a target="_blank" href="https://doi.org/10.1177/03611981231170875"><p className="text-blue-400">https://doi.org/10.</p></a>   [SCIE]

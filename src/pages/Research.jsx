@@ -23,7 +23,7 @@ const Research = () => {
     <>
     <Navbar/>
     {/* <Hero tittle="Invited Lecture"/> */}
-    <div className='bg-slate-800 h-[250vh] md:h-screen p-4 flex justify-center items-center flex-col'>
+    <div className='bg-slate-800  md:h-screen p-4 flex justify-center items-center flex-col'>
       <img src={micperson} alt=""  className=' h-40 w-40 md:h-72 md:w-72 rounded-full'/>
 
     <Points topic={topic} points={points}/>
